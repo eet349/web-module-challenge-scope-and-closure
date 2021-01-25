@@ -12,6 +12,7 @@
  * The following code is demonstrating a way of completing this task
  * It returns the string `foofoo`
  */
+// import './stretch';
 
 function processFirstItem(stringList, callback) {
 	return callback(stringList[0]);
@@ -178,7 +179,7 @@ function scoreboard(getInningScoreCB, inningCB, numInnings) {
 	return scoreboardArray;
 }
 
-console.log('Scoreboard(cb, cb, 9)', scoreboard(getInningScore, inning, 9));
+// console.log('Scoreboard(cb, cb, 9)', scoreboard(getInningScore, inning, 9));
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
 function foo() {
